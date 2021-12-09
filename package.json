@@ -1,0 +1,19 @@
+{
+  "name": "atelie-da-casa-museu-ema-klabin",
+  "version": "1.0.0",
+  "description": "Ateliê da Casa Museu Ema Klabin. Jogo criado pelo Estúdio Galactonautas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ema-klabin/Atelie-da-Casa-Museu-Ema-Klabin.git"
+  },
+  "author": "Estúdio Galactonautas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ema-klabin/Atelie-da-Casa-Museu-Ema-Klabin/issues"
+  },
+  "homepage": "https://github.com/ema-klabin/Atelie-da-Casa-Museu-Ema-Klabin#readme"
+}
