@@ -4,7 +4,7 @@
   "description": "Ateliê da Casa Museu Ema Klabin. Jogo criado pelo Estúdio Galactonautas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "dir-archiver --src . --dest ../atelie-cmek.zip --exclude .DS_Store .git .gitattributes .github .gitignore composer.json composer.lock node_modules package-lock.json package.json phpcs.xml.dist CHANGELOG.md jogo index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ema-klabin/Atelie-da-Casa-Museu-Ema-Klabin/issues"
   },
-  "homepage": "https://github.com/ema-klabin/Atelie-da-Casa-Museu-Ema-Klabin#readme"
+  "homepage": "https://github.com/ema-klabin/Atelie-da-Casa-Museu-Ema-Klabin#readme",
+  "devDependencies": {
+    "dir-archiver": "^1.2.0"
+  }
 }
