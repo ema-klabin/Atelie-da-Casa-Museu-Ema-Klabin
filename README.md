@@ -1,12 +1,7 @@
-<div
-    style="display: grid; grid-template-columns: repeat(2, 50%); align-items: center; justify-items: center;">
-    <div>
-        <img src="./assets/e-k-logo-site.png" alt="Casa Museu Ema Klabin" style="width: 200px; height: auto;">
-    </div>
-    <div>
-        <img src="./assets/logo-galactonautas.jpeg" alt="Estúdio Galactonautas" style="width: 150px; height: auto;">
-    </div>
-</div>
+<p align="middle">
+  <img src="./assets/e-k-logo-site.png" width="200" />&nbsp&nbsp&nbsp&nbsp&nbsp
+  <img src="./assets/logo-galactonautas.jpeg" width="120" /> 
+</p>
 
 [# Jogar](https://ema-klabin.github.io/Atelie-da-Casa-Museu-Ema-Klabin/) 
 
