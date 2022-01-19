@@ -13,15 +13,35 @@ Jogo desenvolvido pelo Estúdio Galactonautas <galactonautas@gmail.com> | [twitt
 
 1. `$ git clone https://github.com/ema-klabin/Atelie-da-Casa-Museu-Ema-Klabin.git`
 2. `$ cd Atelie-da-Casa-Museu-Ema-Klabin`
-3. `$ npm install` 
+3. `$ npm install`
 
 ## Atualizações do jogo
 
 1. Substitua as pastas `Build` e `TemplateData` na pasta `jogo` pelos pastas produzidas na build do Unity
 2. O `index.html` produzido na build deve ser ignorado e não entrar neste projeto
-3. `$ git add .`
-4. `$ git commit -m "Atualização <Numero da Versão>"`
-5. `$ git push`
+3. É importante manter o mesmo nome dos arquivos entre as builds para não quebrar o link no `index`
+    ```
+    Build(fim).data.unityweb
+    Build(fim).framework.js.unityweb
+    Build(fim).loader.js
+    Build(fim).wasm.unityweb
+    ```
+
+4. `$ git add .`
+5. `$ npm run commit` abrirá uma série de opções, selecione a mais adequada e siga os próximos passos na CLI.
+    ```
+    ? Select the type of change that you're committing:
+      fix:      A bug fix
+      docs:     Documentation only changes
+      style:    Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) 
+      refactor: A code change that neither fixes a bug nor adds a feature
+      perf:     A code change that improves performance
+      test:     Adding missing tests or correcting existing tests
+      build:    Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)    
+    (Move up and down to reveal more choices)
+    ```
+6. `$ npm run release`
+7. `$ git push`
 
 ## Plugin WordPress
 
