@@ -50,6 +50,9 @@ class Atelie_CMEK {
 		return self::$instance;
 	}
 	
+	/**
+	 * Construtor
+	 */
 	public function __construct()
 	{
 		add_shortcode( $this->shortcode_tag, array( $this, 'set_atelie_cmek_app' ) );
@@ -58,7 +61,7 @@ class Atelie_CMEK {
 	}
 
 	/**
-	 * [atelie-cmek]
+	 * Shortcode [atelie-cmek]
 	 *
 	 * @return string
 	 */
