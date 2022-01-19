@@ -41,7 +41,7 @@ Jogo desenvolvido pelo Estúdio Galactonautas <galactonautas@gmail.com> | [twitt
     (Move up and down to reveal more choices)
     ```
 6. `$ npm run release`
-7. `$ git push`
+7. `$ npm run push`
 
 ## Plugin WordPress
 

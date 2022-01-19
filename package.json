@@ -6,7 +6,8 @@
   "scripts": {
     "bundle": "dir-archiver --src . --dest ../atelie-cmek.zip --exclude .DS_Store .git .gitattributes .github .gitignore composer.json composer.lock node_modules package-lock.json package.json phpcs.xml.dist CHANGELOG.md jogo index.html",
     "commit": "cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "push": "git push --follow-tags origin main"
   },
   "repository": {
     "type": "git",
