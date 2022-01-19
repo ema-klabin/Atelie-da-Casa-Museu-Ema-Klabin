@@ -1,6 +1,6 @@
 {
   "name": "atelie-da-casa-museu-ema-klabin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ateliê da Casa Museu Ema Klabin. Jogo criado pelo Estúdio Galactonautas",
   "main": "index.js",
   "scripts": {
